@@ -17,7 +17,9 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-
+header{
+    position: sticky;
+}
 header .conteiner{
     position: static;
     display: flex;
@@ -26,6 +28,17 @@ header .conteiner{
     margin: 0px 15px;
     background-color: transparent;
 }
+
+header .conteiner-fixed{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+    background-color: black;
+}
+
+
 
 header .options{
     display: flex;
