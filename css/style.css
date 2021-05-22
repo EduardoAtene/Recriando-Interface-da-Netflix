@@ -80,7 +80,7 @@ main .conteiner{
     align-items: flex-start;
     flex-direction: column;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url("../img/pose-background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0,0,0,.575)100%),url("../img/pose-background.jpg");
     background-size: cover;
 
 }
@@ -103,7 +103,60 @@ main h1:hover{
     transition: 4s;
 }
 
-main button{
+main .botoes{
+    display: flex;
+    justify-content: flex-end;
     color: red;
-    background-color: red;
+    margin-left:3%;
+    background-color: transparent;
+
+}
+
+main button{
+    margin-right: 15px;
+    border-radius: 4%;
+    font-size: 25px;
+    border: none ;
+    padding: 10px 35px;
+    font-family: 'Trebuchet MS',Arial,sans-serif;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.button-assistir{
+    margin-right: ;
+    background-color: rgba(255, 255, 255, 0.486);
+    color: black;
+}
+
+.button-assistir:hover{
+    transition: 5s, ease all;
+    background-color: rgb(255, 250, 250);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/*.button-assistir img{
+    margin-top: -2px;
+    width: 2rem;
+} */
+
+#button-info{
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color:black;
+}
+
+#button-info:hover{
+    transition: 5s, ease all;
+    background-color: rgba(0, 0, 0, 0.829);
+    border: 1px solid white;
+}
+
+.fa-play{
+    color: black;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
