@@ -1,0 +1,27 @@
+@media screen and (max-width:600px){
+    header .conteiner{
+        justify-content: center;
+    }
+    
+    header .options{
+        display: flex;
+        flex-direction: column;
+    }
+    header nav a{
+        font-size: 14px;
+    }
+    /*header .netflix-logo{
+        font-size: 40px;
+        margin-left: 20px;
+    } */
+    header .netflix-logo{
+        margin-right: 2px;
+    }
+
+    header .config{
+        margin-left: 80%;
+        justify-content: flex-start;
+    }
+
+
+}

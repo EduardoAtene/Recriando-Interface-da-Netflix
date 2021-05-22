@@ -46,16 +46,19 @@ header nav a:hover{
     color: rgb(196, 196, 196);
 }
 
-header .netflix-logo{
+/*header .netflix-logo{
     padding-right: 3rem;
     font-size:  44px;
     font-family: 'Arial Black', Times;
     color: var(--vermelho);
-}
-/* NETFLIX IMAGE
+}*/
+
+
 header .netflix-logo img{
-    padding: 20px;
-    max-width: 12rem;
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-right: 2rem;
+    width: 10rem;
 }*/
 
 header .config{
@@ -124,7 +127,6 @@ main button{
 }
 
 .button-assistir{
-    margin-right: ;
     background-color: rgba(255, 255, 255, 0.486);
     color: black;
 }
