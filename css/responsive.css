@@ -25,3 +25,31 @@
 
 
 }
+
+@media  screen and (max-width:800px) {
+    main .conteiner{
+        margin-top: 20%;
+    }
+    main .conteiner h1{
+        font-size: 8rem
+    }
+    main .conteiner section{
+        font-size:15px;
+        margin-right: 55%;
+        margin-left: 2%;
+    }
+
+    main button{
+        font-size: 18px;
+    }
+    
+}
+
+@media  screen and (min-width: 1600px) {
+    .background-image-main{
+        height: 800px;
+    }
+    main .conteiner section{
+        margin-right: 65%;
+    }
+}

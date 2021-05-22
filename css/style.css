@@ -59,7 +59,7 @@ header .netflix-logo img{
     margin-top: 5px;
     margin-right: 2rem;
     width: 10rem;
-}*/
+}
 
 header .config{
     margin-top: 9px;
@@ -74,17 +74,20 @@ header .config img{
      border-radius: 50%;
  }
 
+.background-image-main{
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0,0,0,.575)100%),url("../img/pose-background.jpg");
+    background-size: cover;
+}
 
 
 
 main .conteiner{
+    margin-top: 10%;
     display: flex;
     justify-content:space-evenly ;
     align-items: flex-start;
     flex-direction: column;
-    height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0,0,0,.575)100%),url("../img/pose-background.jpg");
-    background-size: cover;
 
 }
 
@@ -101,12 +104,14 @@ main .conteiner section{
     margin-right: 55%;
     margin-left: 2%;
 }
+
 main h1:hover{
     color: blue;
     transition: 4s;
 }
 
 main .botoes{
+    margin-top: 6rem;
     display: flex;
     justify-content: flex-end;
     color: red;
@@ -161,4 +166,8 @@ main button{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin: 9px;
 }
